@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-box {
+        padding: 8px 12px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: theme("colors.aisi-dark");
+        cursor: pointer;
+        background-color: red;
+  
+        }
+  }
